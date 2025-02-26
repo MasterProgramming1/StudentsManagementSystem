@@ -33,7 +33,7 @@ Follow this step to set up the project locally:
 
 1.  **Clone the Repository**:
     
-        git clone https://github.com/MasterProgramming1/StudentsManagementSystem.git
+        git clone https://github.com/MasterProgramming1/StudentsManagementSystemRepo.git
     
 
 Workflow
