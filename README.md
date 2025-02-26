@@ -26,33 +26,34 @@ Technologies Used
 *   **Frameworks/Tools**: Windows Forms and EF Core
 *   **Version Control**: Git and GitHub
 
-Getting Started
----------------
-
-Follow this step to set up the project locally:
-
-1.  **Clone the Repository**:
-    
-        git clone https://github.com/MasterProgramming1/StudentsManagementSystemRepo.git
-    
 
 Workflow
 --------
+1.  **Clone the repo on your local device**:
+    
+        git clone https://github.com/MasterProgramming1/StudentsManagementSystemRepo.git
 
-1.  **Fork the Repository**: Create your own fork of the project on your GitHub account.
-2.  **Clone your forked repo on your local device**:
+2.  **Connect create and connect local dev branch with remote dev branch**:
+
+        git switch dev
+
+3.  **Make your changes on your local dev branch usihg vs code or any other way**:
     
-        git clone https://github.com/your-username/your-repo-name.git
+4.  **Track your new files or folder you have created or stage modified files in your local repo (. mean current folder if you want to track or stage any specific fodler or file write it's relativ path instead of .)**:
     
-3.  **Make and Commit Changes**:
+        git add .
     
-        git commit -m "Add: your feature description"
-    
-4.  **Push to Your Branch**:
-    
-        git push origin
-    
-5.  **Open a Pull Request**: Submit a PR with a clear description of your changes.
+5.  **Commit your changes to your local dev branch with message**
+
+        git commit -m "write your massage here"
+
+6.  **Push your changes in your local dev branch to remote dev branch**
+
+        git push origin dev --force
 
 Resources and Learning Materials
 --------------------------------
+
+- __[Git and GitHub](https://www.youtube.com/watch?v=Q6G-J54vgKc&pp=ygUVZ2l0IGFuZCBnaXRodWIg2LTYsdit)__ 
+
+- __[EF Core](https://www.youtube.com/playlist?list=PLqPejUavRNTVSVQ5k3UUMgj3RP8Qczwve)__
